@@ -1,0 +1,7 @@
+# Use PHP5.4 as default
+AddHandler application/x-httpd-php54 .php
+
+RewriteEngine On
+RewriteBase /
+RewriteRule ^css/(.*\.css) /combine.php?type=css&files=$1
+RewriteRule ^javascript/(.*\.js) /combine.php?type=javascript&files=$1

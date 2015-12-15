@@ -1,0 +1,56 @@
+/*for body*/
+
+html, body {
+    min-height: 100%;
+    height: 100%;
+}
+
+.stream-body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.stream-body-cont, .stream-body-cont div {
+    width: 100%;
+    height: 100%;
+    /*border: #B8860B 4px solid;*/
+    box-sizing: border-box;
+}
+
+.smite {
+    background: url(/i/smite/smite-bg.jpg) 50% 50% repeat;
+}
+
+.smite .t {
+    background: url(/i/smite/t.jpg) 0 0 repeat-x;
+}
+
+.smite .b {
+    background: url(/i/smite/b.jpg) 0 100% repeat-x;
+}
+
+.smite .l {
+    background: url(/i/smite/l.jpg) 0 0 repeat-y;
+}
+
+.smite .r {
+    background: url(/i/smite/r.jpg) 100% 0 repeat-y;
+}
+
+.smite .lt {
+    background: url(/i/smite/lt.jpg) 0 0 no-repeat;
+}
+
+.smite .rt {
+    background: url(/i/smite/rt.jpg) 100% 0 no-repeat;
+}
+
+.smite .lb {
+    background: url(/i/smite/lb.jpg) 0 100% no-repeat;
+}
+
+.smite .rb {
+    background: url(/i/smite/rb.jpg) 100% 100% no-repeat;
+}
+
